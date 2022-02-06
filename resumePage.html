@@ -1,34 +1,171 @@
-<!DOCTYPE html> <!-- type ! for starter code (only works for html files)-->
+<!DOCTYPE html>
+<!-- type ! for starter code (only works for html files)-->
 <html>
-    <head>
-        
-        
-    <link rel="stylesheet" href="design.css">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 
-    <title> HireMeAnwhere</title>
-    <header> HireMeAnwhere </header>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>HireMeAnwhere</title>
+    <header>HireMeAnwhere</header>
 
     <div class="sidenav">
-        <a id = "firstOption" a href="index.html"> About</a>
-        <a id = "options" a href="resumePage.html"> Resume Help </a>
-        <a id = "options" a href="portfolioPage.html"> Build Your Portfolio </a>
-        <a id = "options" a href="mentorHelp.html"> Meet with a Mentor</a>
-        <div id="options" class="g-signin2" data-onsuccess="onSignIn"></div>
+      <a id="firstOption" href="index.html"> About</a>
+      <a id="options" a href="resumePage.html"> Resume Help </a>
+      <a id="options" href="#portfolio"> Build Your Portfolio </a>
+      <a id="options" href="#mentorHelp"> Meet with a Mentor</a>
+    </div>
+  </head>
 
+  <body>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <p id="p">
+      Welcome to HireMeAnywhere's Resume Builder! Provide us with information
+      and we will give you a basic resume to edit and change as you go!
+    </p>
+    <div id="major">
+      <label for="mjr">What is your major?</label>
+      <input type="text" id="mjr" />
+      <button onclick="cont()">Next</button>
+    </div>
+    <div id="skill">
+      <h1>What kind of skills do you have?</h1>
+      <button onclick="addS()">Add Skill</button>
+    </div>
+    <div id="addSkill">
+      <div class="skillWords">
+        <div id="skillz1">
+          <label for="title">What's your skill title?</label>
+          <input type="text" id="title" />
+          <label for="descr">Describe your skill: </label>
+          <input type="text" id="descr" />
+        </div>
+        <div id="skillz2">
+          <label for="title2">What's your skill title?</label>
+          <input type="text" id="title2" />
+          <label for="descr2">Describe your skill: </label>
+          <input type="text" id="descr2" />
+        </div>
+        <div id="skillz3">
+          <label for="title3">What's your skill title?</label>
+          <input type="text" id="title3" />
+          <label for="descr3">Describe your skill: </label>
+          <input type="text" id="descr3" />
+        </div>
+        <div id="skillz4">
+          <label for="title4">What's your skill title?</label>
+          <input type="text" id="title4" />
+          <label for="descr4">Describe your skill: </label>
+          <input type="text" id="descr4" />
+        </div>
+        <h1 id="ends"></h1>
       </div>
+      <div id="confirm">
+        <button onclick="confirms()">Confirm</button>
+      </div>
+      <div id="other">
+        <button onclick="another()" id="anotherSkl">Add Another Skill</button>
+        <button onclick="cont()">Next</button>
+      </div>
+    </div>
+    <div id="exp">
+      <h1>What kind of experience do you have?</h1>
+      <button onclick="addExp()">Add Experience</button>
+    </div>
+    <div id="chest">
+      <div class="expWords">
+        <div id="exp1">
+          <label for="head">What was your experience?</label>
+          <input type="text" id="head" />
+          <label for="ibe">Describe your experience: </label>
+          <input type="text" id="ibe" />
+        </div>
+        <div id="exp2">
+          <label for="head2">What was your experience?</label>
+          <input type="text" id="head2" />
+          <label for="ibe2">Describe your experience: </label>
+          <input type="text" id="ibe2" />
+        </div>
+        <div id="exp3">
+          <label for="head3">What was your experience?</label>
+          <input type="text" id="head3" />
+          <label for="ibe3">Describe your experience: </label>
+          <input type="text" id="ibe3" />
+        </div>
+        <div id="exp4">
+          <label for="head4">What was your experience?</label>
+          <input type="text" id="head4" />
+          <label for="ibe4">Describe your experience: </label>
+          <input type="text" id="ibe4" />
+        </div>
+        <h1 id="ends2"></h1>
+      </div>
+      <div id="consoft">
+        <button onclick="consofts()">Confirm</button>
+      </div>
+      <div id="other2">
+        <button onclick="another2()" id="anotherExp">
+          Add Another Experience
+        </button>
+        <button onclick="cont()">Next</button>
+      </div>
+    </div>
 
-    </head>
-
-    <body>
-      <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
-
-        <p>resume page </p>
-    </body>
+    <div id="results">
+      <h1 id="mage">Major:</h1>
+        <div id="skillz">
+          <h1>Skills</h1>
+          <div class="skills">
+            <h3 id="skill1"></h3>
+            <p id="skill1b"></p>
+          </div>
+          <div class="skills">
+            <h3 id="skill2"></h3>
+            <p id="skill2b"></p>
+          </div>
+          <div class="skills">
+            <h3 id="skill3"></h3>
+            <p id="skill3b"></p>
+          </div>
+          <div class="skills">
+            <h3 id="skill4"></h3>
+            <p id="skill4b"></p>
+          </div>
+        </div>
+        <div id="expz">
+          <h1>Experiences</h1>
+          <div class="exps">
+            <h3 id="expz1"></h3>
+            <p id="expz1b"></p>
+          </div>
+          <div class="exps">
+            <h3 id="expz2"></h3>
+            <p id="expz2b"></p>
+          </div>
+          <div class="exps">
+            <h3 id="expz3"></h3>
+            <p id="expz3b"></p>
+          </div>
+          <div class="exps">
+            <h3 id="expzl4"></h3>
+            <p id="expz4b"></p>
+          </div>
+        </div>
+      <button id="dwnld" onclick="dwnld()">Download</button>
+    </div>
+  </body>
 </html>
