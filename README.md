@@ -17,7 +17,7 @@ We're all proud of ourselves for being able to communicate with one another when
 interchange of encouragement.
 
 ✨What we learned✨
-We learned how to work in teams and debug our code effectively. We also learned that communication is key when working in teams.
+We learned how to work in teams and debug our code effectively. We also learned that communication is key when working in teams. Assigning roles to each other is also important.
 
 ✨What's next for Hire Me Anywhere✨
 
