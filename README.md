@@ -10,7 +10,7 @@ HireMeAnywhere has three features including a resume builder, portfolio template
 We built the project this project with basic HTML, CSS, W3.CSS, and Javascript.
 
 ✨Challenges we ran into✨
-Some of us were focusing too much on the small details and now giving priority to what was most important. 
+Some of us were focusing too much on the small details and not giving priority to what was most important. 
 
 ✨Accomplishments that we're proud of✨
 We're all proud of ourselves for being able to communicate with one another when an issue arose and being able to work effectively together in a team. There was also an
