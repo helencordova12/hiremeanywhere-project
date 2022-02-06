@@ -22,4 +22,4 @@ We learned how to work in teams and debug our code effectively. We also learned 
 ✨What's next for Hire Me Anywhere✨
 
 ✨Built With✨
-We used Visual Studio Code to write out HTML/CSS files.
+We used Visual Studio Code to write our HTML/CSS files.
