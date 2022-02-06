@@ -7,7 +7,7 @@ We wanted to help female college graduates find jobs by providing them with free
 HireMeAnywhere has three features including a resume builder, portfolio templates, and mentorship opportunities. The Resume Builder feature allows you to build a resume by providing skills and experiences. It then takes the information provided and generates a resume starter for the user to download. The Build Your Portfolio section gives the user templets for building their own portfolio website. This section also provides tips and more information about what a portfolio is, how to build one, and why a portfolio is important. The Mock Interview feature allows users to complete a form which applies them to recieve mentorship towards finding a job. These mentors will provide tips and tricks for interviewing and will also host mock interviews with their mentee. We also included a feature that allows people to apply to become a mentor.
 
 ✨How we built it✨
-We built the project this project with basic HTML, CSS, W3.CSS, and Javascript.
+We built the project this project with basic HTML, CSS, W3.CSS, and Javascript. We also used a small JavaScript library that allows the users to download a PDF, the library can be found here: https://codewithmark.com/html-to-pdf.
 
 ✨Challenges we ran into✨
 Some of us worked for 5+ hours straight without taking breaks and I feel like a break from time to time would've been necessary. Some of us were also focusing too much on the small details and not prioritizing what was most important. 
