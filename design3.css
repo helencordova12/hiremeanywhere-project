@@ -18,10 +18,11 @@
   }
 
   #text1{
-    
+    size: 100px;
     padding-right: 645px;
     padding-left: 500px;
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
   }
   
   /* Create three equal columns that sits next to each other */
@@ -36,6 +37,7 @@
   padding-left: 30px;
   width: 50%;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #buttons{
@@ -64,4 +66,10 @@
   max-width: 50%;
 
 }
-
+#intro{
+    
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
