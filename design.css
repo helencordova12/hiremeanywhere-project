@@ -33,23 +33,27 @@ body {
   font-size: 25px;
   color: black;
   display: block;
-  padding-top: 100px;
+  padding-top: 100px;  
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .sidenav a:hover {
-  color: #9b9191da;
+  color: #9b9191da;  
+  font-family: "Josefin Sans", sans-serif;
 }
 
 #firstOption {
   font-size: 29px;
   padding: 20px;
   padding-top: 50px;
-  font-weight: bold;
+  font-weight: bold;  
+  font-family: "Josefin Sans", sans-serif;
 }
 #options {
   font-size: 29px;
   padding: 20px;
-  font-weight: bold;
+  font-weight: bold;  
+  font-family: "Josefin Sans", sans-serif;
 }
 
 p {
