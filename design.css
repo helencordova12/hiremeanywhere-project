@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 * {
   text-align: center;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Roboto Mono', monospace;
 }
 header {
   color: black;
@@ -10,6 +10,7 @@ header {
   font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
   padding: 20px;
+  margin-left: 15%
 }
 body {
   background-color: #99ccff;
@@ -26,37 +27,30 @@ body {
   padding-top: 20px;
   font-family: "Josefin Sans", sans-serif;
 }
-.logo {
-	top:0; 
-	left:0; 
-  padding-bottom: -900px;
-}
+
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
   color: black;
   display: block;
-  padding-top: 100px;  
-  font-family: "Josefin Sans", sans-serif;
+  padding-top: 100px;
 }
 
 .sidenav a:hover {
-  color: #9b9191da;  
-  font-family: "Josefin Sans", sans-serif;
+  color: #9b9191da;
 }
 
 #firstOption {
   font-size: 29px;
   padding: 20px;
-  font-weight: bold;  
-  font-family: "Josefin Sans", sans-serif;
+  padding-top: 50px;
+  font-weight: bold;
 }
 #options {
   font-size: 29px;
   padding: 20px;
-  font-weight: bold;  
-  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
 }
 
 p {
@@ -144,7 +138,7 @@ button:hover {
 /*styling for the home page*/
 .content{
   width: 600px;
-  margin-left: 34%;
+  margin-left: 32%;
 }
 h2{
   font-size: 26px;
@@ -154,7 +148,4 @@ h4{
 }
 h5{
   font-size: 22px;
-}
-#icon{
-  border-radius: 50%;
 }
