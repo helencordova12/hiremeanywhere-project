@@ -26,7 +26,11 @@ body {
   padding-top: 20px;
   font-family: "Josefin Sans", sans-serif;
 }
-
+.logo {
+	top:0; 
+	left:0; 
+  padding-bottom: -900px;
+}
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -45,7 +49,6 @@ body {
 #firstOption {
   font-size: 29px;
   padding: 20px;
-  padding-top: 110px;
   font-weight: bold;  
   font-family: "Josefin Sans", sans-serif;
 }
