@@ -82,3 +82,12 @@
     
   text-align: left;
 }
+#lastIntro{
+    padding-left: 0%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    padding-right: 200px;
+    padding-left: 200px;
+    
+  text-align: center;
+}
