@@ -22,4 +22,4 @@ We learned how to work in teams and debug our code effectively. We also learned 
 ✨What's next for Hire Me Anywhere✨
 
 ✨Built With✨
-We used Visual Studio Code to write our HTML/CSS files. We also used an online logo maker to create the logo for our website. 
+We used Visual Studio Code to write our HTML/CSS files. We also used an online logo maker to create the logo for our website. The website we used to make out logo is https://www.freelogodesign.org/.
