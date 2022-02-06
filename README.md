@@ -20,6 +20,7 @@ interchange of encouragement.
 We learned how to work in teams and debug our code effectively. We also learned that communication is key when working in teams. Assigning roles to each other is also important.
 
 ✨What's next for Hire Me Anywhere✨
+We hope to make Hire Me Anywhere as responsive as possible and upgrade its styling. We also hope for Hire Me Anywhere to be a platform for recent female graduates to seek and find jobs once they enter the workforce.
 
 ✨Built With✨
 We used Visual Studio Code to write our HTML/CSS files. We also used an online logo maker to create the logo for our website. The website we used to make out logo is https://www.freelogodesign.org/.
