@@ -46,11 +46,13 @@ body {
   padding: 20px;
   padding-top: 50px;
   font-weight: bold;
+  text-align: right;
 }
 #options {
   font-size: 29px;
   padding: 20px;
   font-weight: bold;
+  text-align: right;
 }
 
 p {
