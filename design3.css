@@ -66,11 +66,21 @@
   max-width: 50%;
 
 }
-#intro{
-    
-  text-align: left;
+#intro1{
+    padding-left: 0%;
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
     padding-right: 200px;
     padding-left: 200px;
+    
+     text-align: left;
+}
+#intro{
+    padding-left: 0%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    padding-right: 200px;
+    padding-left: 200px;
+    
+  text-align: left;
 }
