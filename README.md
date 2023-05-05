@@ -1,4 +1,4 @@
-# hiremeanywhere
+This a website I created for the HackViolet 2022 hackathon.
 
 ✨Inspiration✨
 We wanted to help female college graduates find jobs by providing them with free and easy-to-use resources.
